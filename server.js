@@ -21,4 +21,6 @@ app.get("/api/games", (req, res) => {
 });
 
 
-app.listen(1337, () => console.log("Listening on port 1337"));
+const PORT = 3002;
+
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
